@@ -16,6 +16,7 @@ import java.util.ArrayList;
 
 public class MainActivity extends ActionBarActivity implements View.OnClickListener {
 
+    //Stopped at the "Detecting List Selections" section of part two
     TextView mainTextView;
     Button mainButton;
     EditText mainEditText;
