@@ -63,5 +63,8 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
         // and use in TextView
         mainTextView.setText(mainEditText.getText().toString()
                 + " is learning Android development!");
+        // Also add that value to the list shown in the ListView
+        mNameList.add(mainEditText.getText().toString());
+        mArrayAdapter.notifyDataSetChanged();
     }
 }
