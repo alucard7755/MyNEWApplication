@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">MyNEWApplication</string>
-    <string name="text_view">Nick is learning android!</string>
+    <string name="app_name">BookMaster General</string>
+    <string name="text_view">Search for books!</string>
     <string name="action_settings">Settings</string>
-    <string name="button">Update The TextView</string>
-    <string name="hint">A Name</string>
+    <string name="button">Search</string>
+    <string name="hint">Title and/or Author</string>
 </resources>
