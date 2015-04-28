@@ -92,6 +92,9 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
         // 6. The text you'd like to share has changed,
         // and you need to update
         setShareIntent();
+
+        // 9. Take what was typed into the EditText and use in search
+        queryBooks(mainEditText.getText().toString());
     }
 
     @Override
